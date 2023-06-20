@@ -65,3 +65,7 @@ body {
   align-items: center;
   cursor: pointer;
 }
+
+.display a:hover {
+  box-shadow: 0 4px 15px 0 rgb(83, 255, 170, 0.75);
+}

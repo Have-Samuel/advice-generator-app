@@ -39,3 +39,16 @@ body {
   color: #53ffaa;
   margin: 2.5rem 0 0 0;
 }
+
+.display p {
+  width: 295px;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 33px;
+  text-align: center;
+  color: #cee3e9;
+}
+
+.display img {
+  margin: 1.5rem 0 0 0;
+}

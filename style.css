@@ -50,7 +50,11 @@ body {
 }
 
 .display .plus {
+  background: url('./images/pattern-divider-mobile.svg');
+  background-repeat: no-repeat;
   margin: 2rem 0 0 0;
+  height: 16px;
+  width: 295px;
 }
 
 .display a {
@@ -68,4 +72,27 @@ body {
 
 .display a:hover {
   box-shadow: 0 4px 15px 0 rgb(83, 255, 170, 0.75);
+}
+
+@media (min-width: 786px) {
+  .display {
+    width: 540px;
+  }
+
+  .display span {
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .display p {
+    width: 404px;
+    margin-top: 1.5rem;
+  }
+
+  .display .plus {
+    background: url('./images/pattern-divider-desktop.svg');
+    background-repeat: no-repeat;
+    width: 444px;
+    margin: 2.5rem;
+  }
 }

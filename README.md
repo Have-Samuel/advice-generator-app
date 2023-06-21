@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- [Github](https://your-solution-url.com)
-- [Live Link](https://your-live-site-url.com)
+- [Github]()
+- [Live Link]()
 
 ## My process
 

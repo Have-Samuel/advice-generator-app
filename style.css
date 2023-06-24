@@ -40,21 +40,22 @@ body {
 }
 
 .display p {
-  width: 295px;
+  max-width: 400px;
   font-size: 24px;
   font-weight: 800;
   line-height: 33px;
   text-align: center;
   color: #cee3e9;
-  margin-top: 1rem;
+  margin: 1rem 0.5rem;
 }
 
 .display .plus {
   background: url('./images/pattern-divider-mobile.svg');
   background-repeat: no-repeat;
-  margin: 2rem 0 0 0;
+  margin: 15rem 0 0 0;
   height: 16px;
   width: 295px;
+  position: fixed;
 }
 
 .display a {

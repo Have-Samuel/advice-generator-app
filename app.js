@@ -1,20 +1,25 @@
+/* eslint-disable no-undef */
 const diceIcon = document.querySelector('.changer');
 const adviceNum = document.querySelector('.advice-num');
 const paragraph = document.querySelector('.paragraph');
 
-// Display the number of the advice and advice.
-const displayAdvice = (data) => {
-  
-};
+// Using the Axios library to make a GET request
+function getAdvice() {
+  axios.get('https://api.adviceslip.com/advice')
+    .then((response) => {
+      // handle success
+      console.log(response.data.slip.advice);
 
-// When the dice icon is clicked,
-// the event fetches data from ADVICE SLIP API and displays the number of the advice and advice.
-diceIcon.addEventListener('click', () => {
-  console.log('Hello!');
-  // fetchData();
-  displayAdvice();
-});
+      // let Advice;
+      // Add the Advice word
+      adviceNum.innerHTML = `ADVICE #${response.data.slip.id}`;
+      paragraph.innerHTML = response.data.slip.advice;
+    })
+    .catch((error) => {
+    // handle error
+      console.log(error);
+    });
+}
 
-// Call the fetchData function.
-
-// Call the displayAdvice function.
+// Event listener
+diceIcon.addEventListener('click', getAdvice);

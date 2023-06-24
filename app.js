@@ -4,16 +4,7 @@ const paragraph = document.querySelector('.paragraph');
 
 // Display the number of the advice and advice.
 const displayAdvice = (data) => {
-  adviceNum.textContent = data.id;
-  paragraph.textContent = data.advice;
-
-  console.log(data.slip.id);
-};
-
-// Fetch data from ADVICE SLIP API.
-const fetchData = () => {
-  fetch('https://api.adviceslip.com/advice')
-    .then((response) => response.json());
+  
 };
 
 // When the dice icon is clicked,

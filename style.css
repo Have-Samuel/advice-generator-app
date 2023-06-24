@@ -40,6 +40,7 @@ body {
 }
 
 .display p {
+  max-width: 400px;
   width: 295px;
   font-size: 24px;
   font-weight: 800;
@@ -52,9 +53,10 @@ body {
 .display .plus {
   background: url('./images/pattern-divider-mobile.svg');
   background-repeat: no-repeat;
-  margin: 2rem 0 0 0;
+  margin: 15rem 0 0 0;
   height: 16px;
   width: 295px;
+  position: fixed;
 }
 
 .display a {

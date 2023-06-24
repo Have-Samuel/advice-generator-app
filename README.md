@@ -26,6 +26,7 @@ Users should be able to:
 
 ### Screenshot
 #### Mobile
+
 ![](./design/mobile-design.jpg)
 
 #### Desktop
@@ -33,7 +34,7 @@ Users should be able to:
 ### Links
 
 - [Github](https://github.com/Have-Samuel/advice-generator-app)
-- [Live Link]()
+- [Live Link](https://chipper-advicer.netlify.app/)
 
 ## My process
 

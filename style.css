@@ -41,13 +41,13 @@ body {
 
 .display p {
   max-width: 400px;
-  width: 295px;
+  /* width: 295px; */
   font-size: 24px;
   font-weight: 800;
   line-height: 33px;
   text-align: center;
   color: #cee3e9;
-  margin-top: 1rem;
+  margin: 1rem 0.5rem;
 }
 
 .display .plus {

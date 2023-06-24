@@ -10,12 +10,13 @@ function getAdvice() {
       // handle success
       console.log(response.data.slip.advice);
 
-      let Advice;
-      adviceNum.innerHTML = `${Advice}#${response.data.slip.id}`;
+      // let Advice;
+      // Add the Advice word
+      adviceNum.innerHTML = `ADVICE #${response.data.slip.id}`;
       paragraph.innerHTML = response.data.slip.advice;
     })
     .catch((error) => {
-      // handle error
+    // handle error
       console.log(error);
     });
 }

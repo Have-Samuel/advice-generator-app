@@ -11,7 +11,7 @@ const displayAdvice = (data) => {
 // the event fetches data from ADVICE SLIP API and displays the number of the advice and advice.
 diceIcon.addEventListener('click', () => {
   console.log('Hello!');
-  fetchData();
+  // fetchData();
   displayAdvice();
 });
 

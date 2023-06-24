@@ -25,12 +25,14 @@ Users should be able to:
 - Generate a new piece of advice by clicking the dice icon
 
 ### Screenshot
-
+#### Mobile
 ![](./screenshot.jpg)
 
+#### Desktop
+![](./design/desktop-design.jpg)
 ### Links
 
-- [Github]()
+- [Github](https://github.com/Have-Samuel/advice-generator-app)
 - [Live Link]()
 
 ## My process
@@ -40,17 +42,9 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-## Author
-
-- [FrontendMentor](https://www.frontendmentor.io/profile/Have-Samuel)
-- [Twitter](https://twitter.com/samhave1)
-- [LinkedIn](https://www.linkedin.com/in/have-samuel/)
+- [Advice Slip JSON API](https://api.adviceslip.com/) - Advice API
+- [Axios](https://github.com/axios/axios) - Axios Library
 
 ## Author
 
